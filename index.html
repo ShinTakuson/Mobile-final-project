@@ -1,30 +1,161 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <!-- CSS Start -->
     <!-- Bootstrap CDN CSS Start -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
     <!-- Bootstrap CDN CSS End -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
     <!-- CSS End -->
-    <title>Bootstrap 4.5 Template</title>
+    <title>MFW Final Project</title>
   </head>
-<!-- body -->
-  <body>
-  <!-- content goes below here -->
+  <!-- body -->
+  <body style="background-color: black">
+    <!-- content goes below here -->
+    <!-- Nav Bar -->
+    <nav>
+      <ul class="nav nav-pills">
+        <li class="dropdown">
+          <a
+            class=""
+            data-toggle="dropdown"
+            href="#"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <img src="img/Triforce-ALinkBetweenWorlds.png" alt="" />
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#homeSection">Home</a>
+            <a class="dropdown-item" href="#storySection">Story</a>
+            <a class="dropdown-item" href="#footer">Footer</a>
+            <div class="dropdown-divider" style="border-color: gold"></div>
+            <a class="dropdown-item" href="https://shintakuson.github.io/final-project/" target="_blank">WFB Final Project</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid JumboCss01" id="homeSection">
+      <div class="container">
+        <div class="container01"></div>
+        <div class="container02"></div>
+        <div class="container03"></div>
+        <div class="container04"></div>
+        <div class="container05"></div>
+        <h1 class="display-4">Hello!</h1>
+        <p class="lead">Welcome to my <br> Mobile Friendly Final Project.</p>
+      </div>
+    </div>
+    <!-- Page Section -->
+    <div class="JumboCss02" id="storySection">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+        data-interval="false"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/parchment_scroll_background.png" alt="First slide" />
+            <div class="storySectionDiv row">
+              <h1 class="col-6">Hello,</h1>
+              <p>This section is about the page taking my course at bitwise. I enjoy the animation portion of CSS. The course was a little challenging at first. Then the pieces fell together. <br> <br> As you can see above, we have the opening Logo, stolen from Nintendo. Side note do not sue me. The landing page Hero Image/Jumbotron is taken from legend of Zelda as well. I wanted to play around with the different Animations.</p>
+            </div>
+            
+          </div>
+          <div class="carousel-item">
+            <img src="img/parchment_scroll_background.png" alt="Second slide" />
+            <div class="storySectionDiv row">
+              <h1 class="col-12">Page 2</h1>
+              <p>Beginning with my favorite part, <b>"The Waterfall."</b> I have imaged it to change colors as it goes down but did not want to put too much into it. I have copied the original Waterfall and copied it several times. It is three times its length. There is a loop where the image slides down for a few seconds and reverts to its original position. <br><br> Next up is the Lightning affects, with several hours of breaking everything else. I used the "filter" thing. Sepia with Brightness. Timed it to about ten secs for every flash. <br> <br> I just did not know what kind of background I wanted. Thought of a zombie "Legend of Zelda" text, with little droplets of blood. Then having the river turn red after a few seconds. It just seemed like too much work. Got into the SVG and was going to use that to add the dripping effects. The clouds themselves were SVG, I did not create them. There were a few websites that assisted in creating the SVG. I opted out for just coping it.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/parchment_scroll_background.png" alt="Third slide" />
+            <div class="storySectionDiv row">
+              <h1 class="col-6">Last One,</h1>
+              <p>I will just leave this page to give credit to different sites I used.</p>
+                <ul >
+                  <li><a href="https://getbootstrap.com/docs/4.0" target="_blank">BootStrap</a> Although I enjoy creating my own CSS this is an interesting site.</li>
+                  <li><a href="https://pixlr.com/" target="_blank">Pixlr</a> I used this site before, when it was geekwise. Cheap way to edit your images.</li>
+                  <li><a href="https://drawsvg.org/drawsvg.html" target="_blank">DrawSVG</a> I used this to draw the clouds, when you don't get sleep and browse the internet.</li>
+                  <li><a href="https://www.figma.com/" target="_blank">Figma</a> Didn't use this one much. It seems interesting.</li>
+                <p>There are others I did not save. Bitwise is a good place to learn things. Even when stuff gets hard and difficult to understand, there are always people willing to help.</p>
+            
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- controls for carousel -->
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <img src="img/LinkPoint.png" alt="" style="width: 10vw; height: 10vw;min-width: 10vw;">
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+        <img src="img/LinkPoint.png" alt="" style="width: 10vw; height: 10vw; min-width: 10vw;transform: rotatey(180deg)">
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer id="footer">
+      <div class="row">
+        <div class="col">
+          <h3>Address</h3> <br>
+          123 Someplace Street <br>
+          Not Real, CA 99999 <br>
+          MFW Final Project From Bitwise Created by Angel Ramirez
+        </div>
+        
+        <div class="col ">
+          <h3>Links</h3><br>
+          <a href="https://bitwiseindustries.com/" target="_blank">BitWise</a> <br>
+          <a href="https://github.com/ShinTakuson" target="_blank">Github-ShinTakuson</a>
+        </div>
+        <iframe class="col-lg-6 col-sm-12" src="https://www.google.com/maps/embed?pb=!4v1635302078577!6m8!1m7!1sWaZEUUEF_olXU-aktrE3lQ!2m2!1d35.37533274292566!2d-119.0213252819564!3f219.00716981935219!4f3.895426492001164!5f0.7820865974627469" width="400" height="200" style="border:0;margin-top: 10px;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
 
 
+    </footer>
 
-
-
-
-  
-<!-- Content goes above here -->
-<!-- Keep script files next to the closing body tag -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- Content goes above here -->
+    <!-- Keep script files next to the closing body tag -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="js/scripts.js" />
   </body>
 </html>
