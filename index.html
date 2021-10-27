@@ -16,7 +16,7 @@
       crossorigin="anonymous"
     />
     <!-- Bootstrap CDN CSS End -->
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <!-- CSS End -->
     <title>MFW Final Project</title>
   </head>
@@ -131,16 +131,31 @@
         <div class="col">
           <h3>Address</h3> <br>
           123 Someplace Street <br>
-          Not Real, CA 99999 <br>
+          Not Real, CA 99999 <br><br>
+
+          <h3>Links</h3><br>
+          <a href="https://bitwiseindustries.com/" target="_blank">BitWise</a> <br>
+          <a href="https://github.com/ShinTakuson" target="_blank">Github-ShinTakuson</a>
           MFW Final Project From Bitwise Created by Angel Ramirez
         </div>
         
         <div class="col ">
-          <h3>Links</h3><br>
-          <a href="https://bitwiseindustries.com/" target="_blank">BitWise</a> <br>
-          <a href="https://github.com/ShinTakuson" target="_blank">Github-ShinTakuson</a>
+
+          <form id="contactForm" action="javascript:void(0);" onsubmit="handleSubmit('contactForm')">
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" placeholder="John Doe">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="john@example.com">
+            <label for="reason">Questions?</label>
+            <textarea id="reason" name="reason" placeholder="We've been trying to reach you about your car's extended warranty..."></textarea>
+            
+            <input type="submit" value="Submit">
+        </form>
+
+
+
         </div>
-        <iframe class="col-lg-6 col-sm-12" src="https://www.google.com/maps/embed?pb=!4v1635302078577!6m8!1m7!1sWaZEUUEF_olXU-aktrE3lQ!2m2!1d35.37533274292566!2d-119.0213252819564!3f219.00716981935219!4f3.895426492001164!5f0.7820865974627469" width="400" height="200" style="border:0;margin-top: 10px;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe class="col-lg-6 col-sm-12" src="https://www.google.com/maps/embed?pb=!4v1635302078577!6m8!1m7!1sWaZEUUEF_olXU-aktrE3lQ!2m2!1d35.37533274292566!2d-119.0213252819564!3f219.00716981935219!4f3.895426492001164!5f0.7820865974627469" width="400" height="440" style="border:0;margin-top: 10px;" allowfullscreen="" loading="lazy"></iframe>
       </div>
 
 
