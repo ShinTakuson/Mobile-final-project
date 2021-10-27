@@ -53,7 +53,7 @@ nav img {
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
-  background-image: url(./img/BackgroundA01.png);
+  background-image: url(img/BackgroundA01.png);
   animation: BackgroundAnimation01A 5s linear 0s infinite forwards;
 }
 /* Animation for waterfall */
@@ -185,7 +185,7 @@ nav img {
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
-  background-image: url(./img/BackgroundA02.png);
+  background-image: url(img/BackgroundA02.png);
   animation: BackgroundAnimation02 20s linear 0s infinite forwards;
 }
 /* Animation for Lighting effects on the cliffs */
@@ -252,7 +252,7 @@ nav img {
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
-  background-image: url(./img/BackgroundA03.png);
+  background-image: url(img/BackgroundA03.png);
   animation: BackgroundAnimation03 20s linear 0s infinite forwards;
   visibility: hidden;
 }
@@ -294,7 +294,7 @@ nav img {
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
-  background-image: url(./img/BackgroundA04.png);
+  background-image: url(img/BackgroundA04.png);
   animation: BackgroundAnimationCloud 20s linear 0s infinite forwards;
 }
 /* Animation for cloud and lighting effects */
