@@ -1,5 +1,5 @@
 # Welcome Mobile Friendly Bitwise Final Project
-Hi! I'm Angel Ramirez, I stolen this bootstrap template from some Gabriel guy. I think I used Bootstrap but not too sure. This template said did, link below. I have been learning how to adjust the webpage
+Hi! I'm Angel Ramirez, I stolen this bootstrap template from some Gabriel guy. I think I used Bootstrap but not too sure. This template said I did, the link is below. I have been learning how to adjust the webpage
 
 It currently uses the Bootstrap 4.5 CDN & [starter code found here](https://getbootstrap.com/docs/4.5/getting-started/introduction/).
 
